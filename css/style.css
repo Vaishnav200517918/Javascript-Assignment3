@@ -1,0 +1,105 @@
+/*Some Simple CSS  */
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+
+}
+
+/* IMPORTANT */
+.line-on{
+  text-decoration: line-through
+}
+
+/* Layout */
+.todo-list-grid{
+  padding :5px 2px;
+  width: 595px;
+  display: grid;
+  grid-template-columns: 40px 300px 120px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+  
+}
+.todo-heading-grid{
+  display: grid;
+  grid-template-columns: 40px 300px 120px 100px;
+  margin-bottom: 10px;
+  column-gap: 10px;
+  align-items: center;
+
+}
+
+.title-check , p{
+  margin: 0;
+
+}
+
+h1{
+  background-color: aliceblue;
+  padding: 5px 5px;
+}
+/* Buttons */
+.delete-button,.add-button,.clear-button{
+  padding: 8px 0px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button{
+  background-color: rgba(255, 0, 0, 0.958);
+  color: white;
+}
+.add-button{
+  background-color: green;
+  color: white;
+}
+
+/* Input fields */
+input {
+  padding: 5px 8px;
+}
+
+input[type="checkbox"]{
+  height: 20px;
+}
+
+/* Container */
+.todo-Container{
+background-color: rgb(240, 191, 128);
+}
+
+.todo-Container2{
+  background-color: lightgreen;
+
+}
+.main-container{
+  background-color: rgba(211, 211, 211, 0.695);
+  padding: 5px 5px;
+  width: 599px;
+  border: 1px solid black;
+}
+
+.advanced-container{
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  padding-top: 10px;
+  padding-right:7px;
+  column-gap: 10px;
+}
+/* clear buttons */
+.clear-button{
+  padding: 8px 20px;
+  border: 3px solid rgb(123, 14, 123);
+  background-color: red;
+  color: white;
+}
